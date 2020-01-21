@@ -297,22 +297,23 @@ textarea.form-control {
 
 .pfblock-profile {
     display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .pfblock-profile-icon img{
     max-width: 150px;
     border-radius: 50%;
-    margin: 0 30px;
+    margin: 0 30px 30px;
 }
 
 .pfblock-profile-text {
     font-style: normal;
     font-size: 16px;
+    width: 60%;
 }
 
 .pfblock-icon {
@@ -716,6 +717,9 @@ textarea.form-control {
 		text-align: center;
 	}
 
+    .pfblock-profile-text {
+        width: 90%;
+    }
 }
 
 @media (max-width: 480px) {
