@@ -3,4 +3,4 @@
 
 ## 閲覧できるサイト
 
-https://thedgehog.jp/
+https://lp.hhg-exe.jp/
